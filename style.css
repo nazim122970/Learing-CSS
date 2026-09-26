@@ -1,0 +1,43 @@
+/* selector part  here :*/
+
+/* 1. universal selctor */
+*{
+    margin:10px;
+   
+}
+
+/* 2. element selctor */
+p{
+    font-size: 20px;
+    background-color: brown;
+    margin-top:35px;
+    margin-bottom: 20px;
+}
+
+
+/* 2. id selctor */
+#hello{
+    font-size: 25px;
+    background-color: blue;
+    text-align: center;
+    border: 5px solid red;
+
+}
+/* 3. class selctor */
+.class{
+    border:5px solid maroon;
+    padding:5px;
+    margin:5px;
+
+}
+
+.gap{
+    margin:5px;
+    background-color: orange;
+    border:3px dashed red;
+}
+
+
+
+
+
