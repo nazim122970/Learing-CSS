@@ -67,9 +67,64 @@ p{
 
 /*border box model e sob kisu hisab hobe - height/width (means heigth / width er moddho sob kisu hobe*/
 
+}
+
+/* 5. Css Position */
+
+.position-static{
+    border:2px dotted black;
+    padding:15px;
+    margin-top: 10px;
+    position:static;
+    top: 10px;
+    left:15px;
+
+    /* static Position  e top,left,right,bottom kisu kaj korbe na*/
 
 }
 
+.position-relative{
+    border:2px dashed black;
+    padding:15px;
+    margin-top: 10px;
+    
+    position:relative;
+    top: 10px;
+    left:15px;
+    background-color: palegoldenrod;
+    height: 300px;
+    
+    
 
+    /* relative Position  e top,left,right,bottom kisu kaj korbe */
 
+}
+
+.position-fixed{
+    border:2px dashed black;
+    
+    background-color: brown;
+    position:fixed;
+    top: 10px;
+   /* fixed Position  e top,left,right,bottom kisu kaj korbe....top dile ekdom suru theke suru hobe */
+
+}
+
+.position-fixed button{
+    height: 45px;
+    width: 60px;
+   /*button thik korlam */
+}
+
+.position-absoulate{
+    border:2px dashed black;
+    background-color: brown;
+    position:absolute;
+    width: 150px;
+    top: 150px;
+    left: 90px;
+   
+   /* absolute Position  e top,left,right,bottom kisu kaj korbe kinto ekhane parents ( position: relative er vitor theke kaj korte hobe) */
+
+}
 
