@@ -127,4 +127,27 @@ p{
    /* absolute Position  e top,left,right,bottom kisu kaj korbe kinto ekhane parents ( position: relative er vitor theke kaj korte hobe) */
 
 }
+.grid-class{
+    background-color: brown;
+    display: flex;
+    height:61px;
 
+}
+
+.grid-class div{
+    background-color: blue;
+    border:3px solid red;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    box-sizing: content-box;
+    padding:3px ;
+    margin-left:90px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    
+
+}

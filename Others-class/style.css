@@ -1,0 +1,18 @@
+.count{
+    background-color: blue;
+    display: flex;
+}
+
+.count > div{
+    display: flex;
+    box-sizing: content-box;
+    margin: 15px;
+    height: 200px;
+    width: 200px;
+    border:2px solid pink;
+    padding:10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
